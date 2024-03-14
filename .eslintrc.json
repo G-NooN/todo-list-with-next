@@ -11,12 +11,19 @@
   "parserOptions": {
     "project": "./tsconfig.json"
   },
-  "plugins": ["@typescript-eslint", "prettier"],
+  "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
     "quotes": 0,
     "@typescript-eslint/quotes": 0,
     "comma-dangle": 0,
     "@typescript-eslint/comma-dangle": 0,
-    "react/jsx-filename-extension": 0
+    "react/jsx-filename-extension": 0,
+    "react/function-component-definition": [
+      2,
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ]
   }
 }
