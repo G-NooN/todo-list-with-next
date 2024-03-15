@@ -1,0 +1,27 @@
+{
+  "companyInfo": {
+    "name": "(Inc.) G-NooN",
+    "description": "This is G-NooN",
+    "image": ""
+  },
+  "todoList": [
+    {
+      "id": "1",
+      "title": "커피 마시기",
+      "content": "아메리카노 마시기",
+      "isDone": false
+    },
+    {
+      "id": "b9f4",
+      "title": "제목 테스트",
+      "content": "내용 테스트",
+      "isDone": false
+    },
+    {
+      "id": "34f6",
+      "title": "제목",
+      "content": "내용",
+      "isDone": false
+    }
+  ]
+}
